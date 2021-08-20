@@ -7,6 +7,7 @@ body{
     font-size: 1rem;
     line-height: 23px;
     line-height: 1.4375rem;
+    
 }
 header{
     border-bottom: solid 1px silver;
@@ -152,7 +153,7 @@ figcaption{
 .lateral{
     
     width: 23%;
-    
+    border: solid 1px black;
 }
 .firstB{
     color: white;
@@ -310,6 +311,7 @@ footer>ul li{
     margin: 1%;
 }
 @media only screen and (max-width: 768px){
+  
     .headertop,
 .headerbottom{
     display: none;
@@ -321,12 +323,16 @@ section,
 }
 footer{
     text-align: center;
-    margin: 0%;
-}
-body,
-section{
-    margin: 1%;
+    margin: auto;
+    width: 90%;
     
+}
+
+
+section{
+    
+    width: 100%;
+    margin-left: 0%;
 }
 .post,
 .container,
@@ -335,7 +341,11 @@ section{
 .item_0
 {
     width: 100%;
-    margin: 1%;
+    margin-left: 0%;
+}
+.book{
+    margin-top: 1%;
+    margin-left: 1%;
 }
 .control{
     
@@ -361,12 +371,20 @@ section{
     width: 200px;
     height: 50px;
     padding: 20px;
-    margin-left: 10%;
+    margin-left: 1%;
     font-size: 20px;
     
 }
 .container{    
-    grid-template-columns: 550px 35%;
+    grid-template-columns: 60% 35%;
     grid-template-rows:repeat(5, 100px);
+}
+.lateral{
+    
+    width: 100%;
+    
+}
+.control{
+    width: 90%;
 }
 }
