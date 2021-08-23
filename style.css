@@ -316,11 +316,66 @@ footer>ul li{
     width: 25%;
     margin: 1%;
 }
+.mobileheader{
+    display: none;
+}
 @media only screen and (max-width: 768px){
   
     .headertop,
 .headerbottom{
     display: none;
+}
+.mobileheader{
+    display: block;
+    border: solid 1px black;
+    height: 54px;
+    padding-top: 7px;
+    display: flex;
+}
+.menu_mobile{
+    background-image: url(./icon/ic_menu_black_36dp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    padding: 5px;
+    margin: 4px;
+    height: 28px;
+    width: 28px;
+    border: solid 1px black;
+}
+.mobile_lo{
+    background-image: url(./icon/New_Scientist_logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    padding: 5px;
+    margin: auto;
+    
+    height: 32px;
+    width: 200px;
+    border: solid 1px black;
+}
+.person_mobile{
+    background-image: url(./icon/ic_person_black_48dp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    padding: 5px;
+    margin: 4px;
+    height: 28px;
+    width: 28px;
+    border: solid 1px black;  
+}
+.searc_mobile{
+    background-image: url(./icon/ic_search_black_36dp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    padding: 5px;
+    margin: 4px;
+    height: 28px;
+    width: 28px;
+    border: solid 1px black;  
 }
 section,
 .publicity,
